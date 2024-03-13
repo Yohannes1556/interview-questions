@@ -1,6 +1,7 @@
 import './App.css';
 import Accordian from './components/Accordian/Accordian';
 import ImageSlider from './components/ImageSlider/ImageSlider';
+import LightDarkMode from './components/LightDarkMode/LightDarkMode';
 import LoadMoreData from './components/LoadMoreData/LoadMoreData';
 import QrCodeGenerator from './components/QrCodeGenerator/QrCodeGenerator';
 import RandomColor from './components/RandomColor';
@@ -24,7 +25,9 @@ function App() {
 
       {/* <TreeView menus={menus}/> */}
 
-      <QrCodeGenerator />
+      {/* <QrCodeGenerator /> */}
+
+      <LightDarkMode />
     
     
     
