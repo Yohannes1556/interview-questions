@@ -2,6 +2,7 @@ import "./App.css";
 import Accordian from "./components/Accordian/Accordian";
 import ModalTest from "./components/CustomModalPopup/ModalTest";
 import TabsTest from "./components/CustomTabs/TabsTest";
+import GithubProfileFinder from "./components/GithubProfileFinder/GithubProfileFinder";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
@@ -36,7 +37,9 @@ function App() {
 
       {/* <TabsTest /> */}
 
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      <GithubProfileFinder />
     </div>
   );
 }
