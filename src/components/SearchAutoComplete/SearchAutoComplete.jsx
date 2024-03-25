@@ -67,7 +67,7 @@ const SearchAutoComplete = () => {
         name='search-user'
         placeholder='search users here...'
         onChange={handleChange}
-        value={searchParam}
+        value={searchParam }
         
         />)
         }
